@@ -1,0 +1,48 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19.0244px;
+  color: #6d6e71;
+}
+.logo-container .logo-img {
+  margin-right: 0.2rem;
+}
+
+nav ul li {
+  font-family: var(--space-grotesk);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: var(--Neutral60);
+}
+
+nav ul .nav-link {
+  margin-left: 1rem;
+}
+
+.signin-btn {
+  font-style: normal;
+  font-weight: bold;
+  color: var(--PrimaryMain);
+}
+.signin-btn:hover {
+  color: #0e49be;
+}
+
+.signup-btn {
+  background-color: var(--PrimaryMain);
+  color: #ffffff;
+  border-radius: 40px;
+  padding: 10px 28px;
+  font-style: normal;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
+.signup-btn:hover {
+  background-color: #0e49be;
+  color: var(--white);
+}
