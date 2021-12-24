@@ -20,11 +20,32 @@
   width: 374px;
 }
 
+.hero-img-right {
+  width: 657px;
+  height: 457px;
+}
+
+/* Marketdown section */
+.marketdown-section {
+  background-color: var(--white);
+}
+.marketdown-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+
+  color: #0a0a0a;
+}
+
+.marketdown-section .marketdown-text span {
+  color: var(--Red500);
+}
+
 .input-container {
   border: 1px solid #e5ecf2;
   box-sizing: border-box;
   border-radius: 40px;
-  width: 540px;
+
   height: 65px;
   display: flex;
   justify-content: space-around;
@@ -35,6 +56,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0px 0.5rem;
 }
 .input-container input {
   border: none;
@@ -42,56 +64,65 @@
   padding-left: 0.5rem;
 }
 
-.logos-container img {
-  width: 7rem;
+.marketdown-section .recently-added {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.hero-right-container {
-  position: relative;
+.recently-added .recently-added-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-right-container .phone,
-.hero-right-container .eclipse {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.recently-added .recently-added-inner p {
+  margin: 0px 0px 0px 0.4rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0a0a0a;
 }
 
-.hero-right-container .eclipse {
-  z-index: -10;
-  width: 504px;
-  height: 504px;
+.recently-added-inner .backward .forward {
+  cursor: pointer;
+  display: none;
 }
 
-.hero-right-container .a,
-.hero-right-container .b,
-.hero-right-container .c,
-.hero-right-container .d {
-  position: absolute;
+.crypt-container .number {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #0a0a0a;
 }
 
-.hero-right-container .a {
-  left: 28%;
-  bottom: 14%;
-  transform: translate(-28%, -14%);
-  z-index: 100;
+.currency-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0a0a0a;
 }
-.hero-right-container .b {
-  left: 10%;
-  top: 30%;
-  transform: translate(-10%, -30%);
-  z-index: 100;
+
+.currency-short {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #98a2ae;
 }
-.hero-right-container .c {
-  right: 20%;
-  top: 0%;
-  transform: translate(-20%, -0%);
-  z-index: 100;
+
+.price-td {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--Red500);
+  cursor: pointer;
 }
-.hero-right-container .d {
-  right: 12%;
-  bottom: 15%;
-  transform: translate(-12%, -15%);
-  z-index: 100;
+
+.price-td img {
+  margin-right: 0.3rem;
 }

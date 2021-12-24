@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import './header.css'
-import logoimg from './assets/images/logo.svg'
+import logoimg from '../assets/images/logo.svg'
 
 const Header = () => {
   return (
