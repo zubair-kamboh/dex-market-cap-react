@@ -1,10 +1,9 @@
 import React from 'react'
 import recentlyadded from '../../assets/images/recently-added.svg'
-import enigma from '../../assets/images/enigma.svg'
-
 import search from '../../assets/images/input-search.svg'
-import redicon from '../../assets/images/price-red-icon.svg'
-import CryptoList from './CryptoList'
+import trending from '../../assets/images/trending.svg'
+import topGainers from '../../assets/images/top-charts.svg'
+
 import CryptoCard from './CryptoCard'
 const MarketDown = () => {
   return (
@@ -28,15 +27,9 @@ const MarketDown = () => {
         </div>
 
         <div className="row">
-          <CryptoCard
-            headimg={recentlyadded}
-            title="Recently Added"
-            number="1"
-            cointitle="Bitcoin"
-            coinshort="BTC"
-            percentage="2.43%"
-            redicon={redicon}
-          />
+          <CryptoCard headimg={recentlyadded} title="Recently Added" />
+          <CryptoCard headimg={trending} title="Trending" />
+          <CryptoCard headimg={topGainers} title="Top Gainers" />
         </div>
       </div>
     </section>
