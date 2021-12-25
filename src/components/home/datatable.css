@@ -1,3 +1,58 @@
-.css-heg063-MuiTabs-flexContainer {
-  display: none;
+.table-section {
+  background-color: var(--white);
+}
+
+.id {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 14px; */
+  /* display: flex;
+  justify-content: start;
+  align-items: center; */
+  color: #0a0a0a;
+}
+
+.name {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0a0a0a;
+}
+
+.name .short {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #98a2ae;
+}
+
+.p {
+  /* Text S/Medium */
+
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0a0a0a;
+}
+
+.oH {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #ea3943;
+}
+
+.mc {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0a0a0a;
 }

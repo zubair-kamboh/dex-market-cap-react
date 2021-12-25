@@ -123,22 +123,22 @@ export default function Datatable() {
         </Box>
       </div>
       <TabPanel value={value} index={0}>
-        Favourites
+        <InnerTable />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <InnerTable />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        DeFi
+        <InnerTable />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Stablecoin
+        <InnerTable />
       </TabPanel>
       <TabPanel value={value} index={4}>
-        NFT
+        <InnerTable />
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Metaverse
+        <InnerTable />
       </TabPanel>
     </section>
   )
