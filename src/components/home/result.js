@@ -4,7 +4,7 @@ import './components.css'
 const Result = ({ children }) => {
   return (
     <div className="result-demo">
-      <div>{children} hello</div>
+      <div>{children}</div>
     </div>
   )
 }

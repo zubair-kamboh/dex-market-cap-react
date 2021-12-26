@@ -2,6 +2,11 @@
   background-color: var(--white);
 }
 
+.dataTables_wrapper .col-md-7 {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .id {
   font-family: Space Grotesk;
   font-style: normal;

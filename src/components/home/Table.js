@@ -1,5 +1,6 @@
 import React from 'react'
-import { MDBDataTable } from 'mdbreact'
+import { Link } from 'react-router-dom'
+import { MDBDataTable, MDBNavLink } from 'mdbreact'
 import img from '../../assets/images/chart-red.svg'
 import binance from '../../assets/images/Cryptocurrency-1.svg'
 import start from '../../assets/images/table-star.svg'
@@ -659,7 +660,11 @@ const DatatablePage = () => {
     ],
   }
 
-  return <MDBDataTable data={data} />
+  return (
+    <Link style={{ textDecoration: 'none' }} to="/specific">
+      <MDBDataTable data={data} />
+    </Link>
+  )
 }
 
 export default DatatablePage

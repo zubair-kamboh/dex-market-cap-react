@@ -1,6 +1,6 @@
-import React from 'react';
-import { MDBContainer } from 'mdbreact';
-import classNames from 'classnames';
+import React from 'react'
+import { MDBContainer } from 'mdbreact'
+import classNames from 'classnames'
 
 const SectionContainer = ({
   children,
@@ -14,7 +14,7 @@ const SectionContainer = ({
   title,
   flexCenter,
   flexCenterVert,
-  flexColumn
+  flexColumn,
 }) => {
   const classes = classNames(
     'section',
@@ -25,11 +25,11 @@ const SectionContainer = ({
     flexCenterVert && 'd-flex align-items-center',
     flexColumn && 'flex-column',
     className
-  );
+  )
 
-  description = description ? <p>{description}</p> : '';
-  title = title ? <h2 className='mb-3'>{title}</h2> : '';
-  header = header ? <h4 className='mb-2'>{header}</h4> : '';
+  description = description ? <p>{description}</p> : ''
+  title = title ? <h2 className="mb-3">{title}</h2> : ''
+  header = header ? <h4 className="mb-2">{header}</h4> : ''
 
   return (
     <>
@@ -40,7 +40,7 @@ const SectionContainer = ({
         {children}
       </MDBContainer>
     </>
-  );
-};
+  )
+}
 
-export default SectionContainer;
+export default SectionContainer
